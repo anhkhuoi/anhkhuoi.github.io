@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="vi" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Danh sách hình ảnh trong bộ sưu tập của Anh Khuôi."
+    />
+    <title>List ảnh - lưu trữ | Anh Khuôi</title>
+    <script src="../assets/js/color-modes.js"></script>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../blog.css" rel="stylesheet" />
+    <style>
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      html,
+      body {
+        background: #fff !important;
+        color: #111 !important;
+      }
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+      }
+      a,
+      .text-body-emphasis,
+      .text-primary,
+      .text-primary-emphasis,
+      .link-secondary,
+      .link-body-emphasis {
+        color: #111 !important;
+      }
+      .bg-body-secondary,
+      .bg-body-tertiary {
+        background-color: #f2f2f2 !important;
+      }
+      .collection-thumbnail {
+        width: 6rem;
+        height: 5rem;
+        object-fit: cover;
+      }
+      img,
+      svg {
+        filter: grayscale(100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="border-bottom lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-6">
+            <a
+              class="blog-header-logo text-body-emphasis text-decoration-none"
+              href="../index.html"
+              >@anhkhuoii</a
+            >
+          </div>
+          <div class="col-6 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-secondary" href="../index.html"
+              >Trang chủ</a
+            >
+          </div>
+        </div>
+      </header>
+      <div class="nav-scroller py-1 mb-3 border-bottom">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis" href="../index.html"
+            >Trang chủ</a
+          >
+          <a
+            class="nav-item nav-link link-body-emphasis active"
+            href="./index.html"
+            aria-current="page"
+            >Ảnh</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="../maintenance.html"
+            >Thể thao</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="../maintenance.html"
+            >Học tập</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="../maintenance.html"
+            >Video nổi bật</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="../maintenance.html"
+            >Âm nhạc</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="../maintenance.html"
+            >Game</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="../maintenance.html"
+            >Dịch vụ</a
+          >
+        </nav>
+      </div>
+    </div>
+    <main class="container">
+      <section class="mb-5" aria-labelledby="collection-title">
+        <h2 id="collection-title" class="h3 mb-3">Danh sách hình ảnh</h2>
+        <ul class="list-group">
+          <li class="list-group-item p-3">
+            <a
+              class="d-flex align-items-center gap-3 link-body-emphasis text-decoration-none"
+              href="https://drive.google.com/drive/folders/177cZdg3eJdtWNiki7pI7FRgbREDuo8eD?usp=sharing"
+            >
+              <!-- <img
+                class="collection-thumbnail rounded"
+                src="../img/head-img.jpg"
+                alt="Ảnh của Anh Khuôi trên trang chủ"
+              /> -->
+              <span class="flex-grow-1">
+                <span class="d-block fw-semibold">Nét đẹp khối chuyên 2026</span>
+                <!-- <span class="small text-body-secondary"
+                  >Hình ảnh đang được sử dụng trên trang chủ.</span
+                > -->
+              </span>
+              <span class="small text-body-secondary">Xem ảnh&nbsp;→</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+      <p class="mb-0">
+        Trang web này được tạo bởi <a href="https://anhkhuoi.github.io/">Anh Khuôi</a>
+    </p> 
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
