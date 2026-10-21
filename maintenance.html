@@ -1,12 +1,135 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bảo trì</title>
-</head>
-<body>
-    <h1>Trang đang được bảo trì</h1>
-    <p>Xin lỗi vì sự bất tiện này. Chúng tôi sẽ sớm quay lại.</p>
-</body>
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Thông tin bảo trì trang web của Anh Khuôi."
+    />
+    <title>Bảo trì | Anh Khuôi</title>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="blog.css" rel="stylesheet" />
+    <style>
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      html,
+      body {
+        background: #fff !important;
+        color: #111 !important;
+      }
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+      }
+      a,
+      .text-body-emphasis,
+      .text-primary,
+      .text-primary-emphasis,
+      .link-secondary,
+      .link-body-emphasis {
+        color: #111 !important;
+      }
+      .bg-body-secondary,
+      .bg-body-tertiary {
+        background-color: #f2f2f2 !important;
+      }
+      .btn-outline-secondary {
+        color: #111 !important;
+        background-color: #fff !important;
+        border-color: #111 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="border-bottom lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-6">
+            <a
+              class="blog-header-logo text-body-emphasis text-decoration-none"
+              href="./index.html"
+              >@anhkhuoii</a
+            >
+          </div>
+          <div class="col-6 d-flex justify-content-end align-items-center">
+            <a class="btn btn-sm btn-outline-secondary" href="./index.html"
+              >Trang chủ</a
+            >
+          </div>
+        </div>
+      </header>
+      <div class="nav-scroller py-1 mb-3 border-bottom">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis" href="./index.html"
+            >Trang chủ</a
+          >
+          <a
+            class="nav-item nav-link link-body-emphasis"
+            href="./image-collection/index.html"
+            >Ảnh</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="./maintenance.html"
+            >Thể thao</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="./maintenance.html"
+            >Học tập</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="./maintenance.html"
+            >Video nổi bật</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="./maintenance.html"
+            >Âm nhạc</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="./maintenance.html"
+            >Game</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="./maintenance.html"
+            >Dịch vụ</a
+          >
+        </nav>
+      </div>
+    </div>
+    <main class="container">
+      <section
+        class="p-4 p-md-5 mb-4 text-body-emphasis bg-body-secondary"
+        aria-labelledby="maintenance-title"
+      >
+        <h1 id="maintenance-title" class="display-4 fst-italic">
+          Trang đang được bảo trì
+        </h1>
+        <p class="lead mb-0">
+          Xin lỗi vì sự bất tiện này. Chúng tôi sẽ sớm quay lại.
+        </p>
+      </section>
+    </main>
+    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+      <p class="mb-0">
+        Trang web này được tạo bởi
+        <a href="https://anhkhuoi.github.io/">Anh Khuôi</a>
+      </p>
+    </footer>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
